@@ -213,6 +213,14 @@ conforme constrói — o usuário nunca deveria caçar arquivo nem ver bagunça.
 Estrutura limpa não é capricho — é o que deixa o projeto pronto pra subir no
 GitHub e na Vercel sem retrabalho.
 
+**Segredos — nunca no repo.** Chave de API, token, credencial (Supabase, Stripe,
+Meta, Google, OpenAI, etc.) são **de cada cliente** e ficam **só local**, em
+`.env` (já no `.gitignore`). Sempre que uma integração precisar de chave: criar/
+atualizar um `.env.example` (com os NOMES das variáveis, sem valores) versionado,
+e pôr os valores reais no `.env` local — nunca commitar valor real, nunca colar
+chave no chat. No deploy, as chaves vão nas variáveis de ambiente da Vercel, não
+no código.
+
 ---
 
 ## Atenção ao contexto (não deixar o fio passar)

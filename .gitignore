@@ -17,6 +17,21 @@ Thumbs.db
 # Dependências
 node_modules/
 
+# SEGREDOS — NUNCA vão pro repo (cada cliente tem os seus, local)
+# Chaves de API, tokens, credenciais de Supabase/Stripe/Meta/Google, etc.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p8
+*.p12
+secrets/
+credentials/
+service-account*.json
+*-credentials.json
+.vercel/
+
 # Arquivos temporários
 *.log
 *.tmp

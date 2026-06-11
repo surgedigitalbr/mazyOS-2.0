@@ -4,10 +4,10 @@
 
 Você acaba de instalar o MazyOS. Em alguns minutos, o projeto vai ter uma
 memória própria, a identidade visual aplicada em tudo que o sistema gerar,
-e **47 skills** prontas — 23 da operação MazyOS (design, copy, marketing,
+e **81 skills** prontas — 23 da operação MazyOS (design, copy, marketing,
 SEO, ads, propostas) **+ um arsenal de craft** que elas puxam sozinhas
-(design premium, backend, pagamento, documentos, QA) — pra tudo rodar com
-você dirigindo.
+(design premium, backend, pagamento, conversão/growth, vendas, documentos,
+QA) — pra tudo rodar com você dirigindo.
 
 Bora voar.
 
@@ -27,7 +27,7 @@ iniciativa, você cria uma pasta com o nome dele e instala o MazyOS na raiz.
 Clona o https://github.com/surgedigitalbr/mazyos-2.0.git na raiz dessa pasta e roda o /instalar.
 ```
 
-Clonar **na raiz** é o que faz todas as 47 skills funcionarem — tanto no
+Clonar **na raiz** é o que faz todas as 81 skills funcionarem — tanto no
 modo manual (`/design`, `/seo`, `/proposta`...) quanto no roteamento
 automático (você só descreve o que quer e ele aciona a skill certa). O molde
 já vem **completo**: clonou, tem tudo — em qualquer máquina.
@@ -103,11 +103,11 @@ formato cardápio, com capa, pronta pra mandar no WhatsApp.
 
 ---
 
-## O arsenal — +24 skills de craft que o sistema puxa sozinho
+## O arsenal — +58 skills de craft que o sistema puxa sozinho
 
 As 23 acima são a linha de frente. Por baixo delas roda um **arsenal de
 execução** que elas acionam automaticamente conforme a tarefa pede — você
-nunca precisa chamar. São **47 skills no total**, e tudo vem no clone.
+nunca precisa chamar. São **81 skills no total**, e tudo vem no clone.
 
 **Craft de design/front** (o `/design` orquestra) — `impeccable` (build
 premium + auditoria, 23 comandos e detector anti-IA), `taste-skill`
@@ -122,6 +122,21 @@ visual por seção), `brandkit` (identidade e deck de marca), `output-skill`
 storage), `supabase-postgres-best-practices` (query, RLS, schema, índices),
 `stripe-best-practices` (pagamento e checkout), `vercel-react-best-practices`
 (performance React/Next), `playwright-cli` (QA do site antes de subir).
+
+**Conversão e growth** (o site/SaaS já nasce pensado pra converter) — `cro`
+(otimizar página e formulário), `signup`, `onboarding` (ativação pós-cadastro),
+`paywalls`, `popups`, `pricing` (preço e empacotamento), `churn-prevention`,
+`ab-testing`, `analytics` (GA4 e tracking), `emails`, `sms`.
+
+**Aquisição e vendas** — `cold-email`, `prospecting` (lista de leads),
+`lead-magnets`, `sales-enablement` (deck, one-pager, objeção), `revops`,
+`competitors` / `competitor-profiling`, `directory-submissions`, `referrals`.
+
+**Estratégia, conteúdo e lançamento** — `marketing-plan`, `marketing-ideas`,
+`marketing-psychology`, `content-strategy`, `customer-research`,
+`product-marketing` (posicionamento e ICP), `site-architecture`, `schema`
+(dados estruturados), `launch` (Product Hunt e GTM), `public-relations`,
+`co-marketing`, `community-marketing`, `free-tools`, `aso`.
 
 **Documentos** — `pdf`, `docx`, `pptx` pra proposta, contrato, ebook e slides.
 **Meta** — `skill-creator` (criar e evoluir as próprias skills do MazyOS),

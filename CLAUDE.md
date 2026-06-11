@@ -95,14 +95,34 @@ ser mandado, mas nunca deixa elas decidirem marca/cor/identidade:
   `stripe` (pagamento/checkout), `vercel-react-best-practices` (performance React/Next:
   waterfalls, bundle, re-render — puxar ao codar SaaS/Next), `playwright` (QA/teste do
   site antes de subir).
+- **Craft de marketing/crescimento** (suite coreyhaines — as skills MazyOS de
+  frente puxam o que falta de profundidade; preenchem o que o MazyOS não cobre,
+  nunca substituem a linha de frente):
+  - *Conversão/produto (puxar ao montar site/SaaS):* `cro` (otimizar página/form),
+    `signup`, `onboarding` (ativação pós-cadastro), `paywalls`, `popups`, `pricing`
+    (preço/empacotamento), `churn-prevention`, `ab-testing`, `analytics` (GA4/tracking),
+    `emails` (sequências de ciclo de vida), `sms`.
+  - *Aquisição/vendas:* `cold-email`, `prospecting` (lista de leads), `lead-magnets`,
+    `sales-enablement` (deck/one-pager/objeção), `revops`, `competitors`/`competitor-profiling`,
+    `directory-submissions`, `referrals`.
+  - *Estratégia/conteúdo:* `marketing-plan`, `marketing-ideas`, `marketing-psychology`,
+    `content-strategy`, `customer-research`, `product-marketing` (posicionamento/ICP),
+    `site-architecture`, `schema` (dados estruturados/JSON-LD — o `/seo` puxa).
+  - *PR/lançamento/comunidade:* `launch` (Product Hunt/GTM), `public-relations`,
+    `co-marketing`, `community-marketing`, `free-tools`, `aso` (app store).
 - **Documentos** (o `/proposta` e afins puxam): `pdf`, `docx`, `pptx` — proposta,
   contrato, ebook, slides.
 - **Meta:** `skill-creator` — criar/testar/melhorar skills (usar quando for evoluir
   o próprio MazyOS).
 
-Regra anti-conflito: nunca usar uma skill externa de **copy, imagem ou vídeo** no
-lugar de `/copy`, `/gerar-imagem` ou `/reels` — essas carregam contexto do negócio
-e não devem ser substituídas pela versão genérica.
+Regra anti-conflito: a **linha de frente é sempre a skill MazyOS** (carrega marca,
+duas identidades e contexto do negócio). Nunca usar uma skill externa **no lugar**
+da MazyOS equivalente — `/copy` (não `copywriting`/`copy-editing`), `/gerar-imagem`
+(não `image`), `/reels` (não `video`/`social`), `/seo` (não `seo-audit`/`ai-seo`/
+`programmatic-seo`), `/anuncio-google` + `/relatorio-ads` (não `ads`/`ad-creative`),
+`/carrossel` + `/publicar-tema` (não `social`). As externas entram só como **craft
+por baixo**, pra profundidade que a MazyOS não tem — nunca decidindo marca, cor ou
+identidade, que é sempre do `design-guide.md` do cliente.
 
 Ao concluir uma tarefa que não tinha skill mas parece repetível (o
 usuário provavelmente vai pedir de novo no futuro), perguntar:

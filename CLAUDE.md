@@ -33,6 +33,15 @@ Pra qualquer tarefa visual (carrossel, post, landing page), consultar
   da Surge, não do cliente. Nunca aplicar a marca da Surge numa entrega do
   cliente, nem a do cliente numa proposta.
 
+**Cérebro operacional da Surge** — `identidade/surge-operacao.md` guarda o que a
+agência sabe sobre si: preços/pacotes, método de entrega, portfólio/cases, ICP
+(cliente ideal) e quebra de objeções. O `/proposta` puxa daqui o preço e o método;
+o `/briefing-cliente` usa o ICP pra **qualificar** o lead. Esse arquivo se
+**autopreenche**: sempre que o usuário revelar um preço, um case ou uma objeção
+nova, oferecer salvar lá pra deixar o sistema mais afiado a cada projeto. É
+**interno/privado** (preço e estratégia) — nunca entregar um repo com ele pro
+cliente.
+
 Não é necessário listar o que foi lido nem confirmar a leitura. Apenas
 usar o contexto naturalmente.
 

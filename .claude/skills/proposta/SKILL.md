@@ -16,6 +16,7 @@ A proposta sai com a cara da **Surge Digital**, não do cliente. É a peça que 
 ## Dependências
 
 - **Marca da SURGE:** `identidade/surge.md` + `identidade/surge-logo.*` — usar ESTA, nunca a do cliente.
+- **Cérebro da Surge:** `identidade/surge-operacao.md` — preços/pacotes, método, cases e diferenciais. **Puxar daqui o preço e o método** em vez de chutar ou perguntar do zero. Se o campo de preço ainda estiver vazio, aí sim perguntar — e oferecer salvar a resposta no `surge-operacao.md` pra próxima.
 - **Contexto do cliente:** `_memoria/empresa.md`, `_memoria/estrategia.md` (a brecha, de `/briefing-cliente`).
 - **Formato flexível:** geralmente um `index.html` estilizado (A4) que você salva como PDF, ou PDF direto via Playwright — o que ficar melhor pro caso. Sempre com **CAPA**.
 - **Saída:** `propostas/<cliente>-<YYYY-MM-DD>.{html,pdf}`.
@@ -52,7 +53,7 @@ A proposta sai com a cara da **Surge Digital**, não do cliente. É a peça que 
 ## Regras
 
 - Marca da Surge sempre (`identidade/surge.md`). Se estiver em branco, parar e pedir pro Guilherme preencher (cores, logo, contato).
-- Preço nunca inventado — perguntar ou usar a faixa que o usuário definir.
+- Preço nunca inventado — puxar de `identidade/surge-operacao.md`; se estiver vazio lá, perguntar e oferecer salvar pra próxima. Pra estruturar pacote/ancoragem quando for complexo, puxar a craft `pricing`.
 - Diagnóstico específico do cliente, não genérico — é o que mostra que a Surge entendeu o negócio.
 - PDF premium, não template de IA. Aplicar os princípios anti-genérico de `/design`.
 - Uma ação clara no fim. Sem enrolação.

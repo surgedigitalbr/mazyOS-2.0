@@ -50,6 +50,19 @@ Você dirige, a IA é o braço direito: vocês conversam, ela dá ideia, monta o
 - `/relatorio-ads` — relatório semanal de Google + Meta Ads
 - `/email-profissional` — rascunho de email
 
+## E por baixo: um arsenal que as skills puxam sozinhas
+
+Além dessas, o MazyOS vem com um **arsenal de craft** (dezenas de skills) que as de cima **acionam automaticamente** conforme a tarefa pede — você nunca precisa chamar. São 81 skills no total. O que ele cobre por baixo:
+
+- **Design premium** — `impeccable`, `taste`, `soft`, `gpt-taste` e cia. (o `/design` orquestra)
+- **Produto/backend** — `supabase` (login, banco), `stripe` (pagamento), performance React/Next, QA com Playwright (pra SaaS/loja)
+- **Conversão & growth** — `cro`, `pricing`, `paywalls`, `onboarding`, `analytics`, A/B test… (o site já nasce pensado pra converter)
+- **Aquisição & vendas** — `cold-email`, `prospecting`, `lead-magnets`, `sales-enablement`, `competitors`
+- **Estratégia & lançamento** — `content-strategy`, `customer-research`, `marketing-plan`, `launch`, `public-relations`
+- **Documentos** — `pdf`, `docx`, `pptx` (proposta, contrato, ebook, slides)
+
+Regra de ouro: essas nunca decidem marca/cor (isso é sempre do cliente) e nunca substituem as skills MazyOS de frente — só dão profundidade por baixo.
+
 ## Como usar de verdade
 
 Não chame os comandos um a um. Fala natural: "vamos montar o site do cliente X", "agora o SEO", "monta uma imagem pra essa seção", "faz a proposta" — a IA reconhece e aciona o que precisa, às vezes várias skills juntas.

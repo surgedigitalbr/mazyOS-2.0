@@ -16,6 +16,7 @@ A porta de entrada de cada projeto. Você grava a call, transcreve, joga em `dad
 ## Dependências
 
 - **Entrada:** transcrição/anotação em `dados/` (txt, md, pdf, docx). Aceita também print/áudio transcrito.
+- **Cérebro da Surge:** `identidade/surge-operacao.md` (ICP) — usar pra **qualificar** o lead (encaixa no cliente ideal? tem bandeira vermelha?), não só descrever.
 - **Saída:** `_memoria/empresa.md`, `_memoria/estrategia.md`, `identidade/design-guide.md` (se cores/logo aparecerem).
 
 ## Workflow
